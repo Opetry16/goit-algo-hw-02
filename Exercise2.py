@@ -16,7 +16,7 @@ def is_palindrome(s):
     return True
 
 # Приклад використання:
-input_string = "I was on mu Hooney Moon in Nazare and very impressed by GIGANT WAVES "
+input_string = "I was on my Honeymoon in Nazare and very impressed by GIGANTIC WAVES. "
 result = is_palindrome(input_string)
 
 if result:

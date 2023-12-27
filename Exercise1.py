@@ -31,4 +31,4 @@ while True:
     # Виконати process_request() для обробки заявок
     process_request()
     # Затримка для імітації реального часу між подіями
-    time.sleep(2)
+    time.sleep(3)
