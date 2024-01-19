@@ -25,10 +25,14 @@ def process_request():
         print("Queue is empty. No requests to process.")
 
 # Головний цикл програми:
-while True:
+try:
+    # Поки користувач не вийде з програми:
+    while True:
     # Виконати generate_request() для створення нових заявок
-    generate_request()
+        generate_request() 
     # Виконати process_request() для обробки заявок
-    process_request()
+        process_request()
     # Затримка для імітації реального часу між подіями
     time.sleep(3)
+except KeyboardInterrupt:
+     print("Програму завершено користувачем.")
